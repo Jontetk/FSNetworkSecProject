@@ -5,12 +5,17 @@ git merge -s ours --no-ff origin/Jonathan -m "merge"
 git merge -s ours --no-ff origin/David -m "merge"
 git merge -s ours --no-ff origin/Marvin -m "merge"
 git checkout Sigge
+git pull
 git reset --hard main
 git checkout Isabelle
+git pull
 git reset --hard main
 git checkout Jonathan
+git pull
 git reset --hard main
 git checkout David
+git pull
 git reset --hard main
 git checkout Marvin
+git pull
 git reset --hard main
