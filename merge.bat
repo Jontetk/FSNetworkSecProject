@@ -1,9 +1,3 @@
-git checkout main
-git merge -s ours --no-ff origin/Sigge -m "merge"
-git merge -s ours --no-ff origin/Isabelle -m "merge"
-git merge -s ours --no-ff origin/Jonathan -m "merge"
-git merge -s ours --no-ff origin/David -m "merge"
-git merge -s ours --no-ff origin/Marvin -m "merge"
 git checkout Sigge
 git pull
 git reset --hard main
